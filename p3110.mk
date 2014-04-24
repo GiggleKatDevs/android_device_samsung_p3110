@@ -28,6 +28,10 @@ PRODUCT_COPY_FILES += \
 # IR packages
 PRODUCT_PACKAGES += \
     consumerir.piranha
+    
+# OTA ID
+PRODUCT_PROPERTY_OVERRIDES += \
+    otaupdater.otaid=liquidp3110
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:system/etc/permissions/android.hardware.consumerir.xml

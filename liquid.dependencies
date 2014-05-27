@@ -19,7 +19,7 @@
     },
     {
         "remote": "gh",
-        "repository": "LiquidSmooth/android_device_samsung_p3100",
+        "repository": "LiquidSmooth-Devices/android_device_samsung_p3100",
         "target_path": "device/samsung/p3100",
         "revision": "kitkat"
     },

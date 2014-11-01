@@ -23,14 +23,14 @@ TARGET_SCREEN_HEIGHT := 1024
 TARGET_SCREEN_WIDTH := 600
 
 # Inherit some common Slim stuff.
-$(call inherit-product, vendor/liquid/config/common_tablet.mk)
+$(call inherit-product, vendor/gigglekat/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/p3110/full_p3110.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := p3110
-PRODUCT_NAME := liquid_p3110
+PRODUCT_NAME := gigglekat_p3110
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-P3110
 PRODUCT_MANUFACTURER := samsung
